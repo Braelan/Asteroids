@@ -3,9 +3,27 @@
 <html>
   <head>
     <title>Asteroids</title>
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu+Mono' rel='stylesheet' type='text/css'>
     <link href="asteroid.css" rel="stylesheet" type="text/css">
+    <script src="lib/jquery-2.1.4.js"></script>
+    <script src="asteroid.js">
+
+    </script>
   </head>
+
+  <div class="info">
+    <ul>
+    <li>Welcome to Asteroids: </li>
+    <li>> left, right arrow pad: rotate ship </li>
+    <li>> up arrow: increase speed </li>
+    <li>> space: fire </li>
+    </ul>
+    <img src="asterback.png">
+  <button>OK!</button>
+  </div>
+
   <body>
+
     <!-- <canvas></canvas> -->
     <!-- <img id="ship" src="ship.png" alt="" /> -->
     <canvas id="game-canvas">
@@ -21,10 +39,6 @@
       var canvasEl = document.getElementById("game-canvas");
       canvasEl.height = window.innerHeight;
       canvasEl.width = window.innerWidth;
-      new Asteroids.GameView(
-        canvasEl.width,
-        canvasEl.height
-      ).start(canvasEl);
     </script>
     <!-- <img id="ship" src="ship.png" alt="" />
  -->
