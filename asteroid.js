@@ -13,6 +13,7 @@ $(document).ready(function(){
 
   $('button').click(function() {
     $(".info").toggleClass("off");
+    $(".background").toggleClass("off")
 
     new Asteroids.GameView(
       canvasEl.width,

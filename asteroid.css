@@ -5,30 +5,36 @@ body, div {
 }
 
 body {
+  position: absolute;
   height: 100%;
   overflow:hidden;
 }
 img {
+  z-index:0;
   display: block;
   width: 100%;
-  height: 300px;
+  height: 100%;
 }
 
  div {
    display: block;
    width: 100%;
    height: 100%;
-   border: 1px solid red;
+   border: 1px solid black;
    position: fixed;
    /*background-image: url("asterback.png");
    background-color: #cccccc;*/
    font-family: "Ubuntu-Mono";
    font-weight: bold;
+   color: white;
+   background_url: "asterback.png";
  }
 
  .info > ul {
+   position: relative;
+   /*top: 200px;*/
+   margin: 150px;
    display: block;
-   margin: auto;
    width: 300px;
    height: 200px;
  }
@@ -43,4 +49,16 @@ img {
    display: none;
    background: green;
    width: auto
+ }
+
+ button {
+   position: relative;
+   z-index: 1;
+   display: block;
+   margin: auto;
+   height: 80px;
+   width: 160px;
+   font-size: 60px;
+   font-weight: bold;
+   cursor: crosshair;
  }
