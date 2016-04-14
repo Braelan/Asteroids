@@ -51,6 +51,8 @@ img {
    width: auto
  }
 
+ canvas {background:url(asterback.png)}
+
  button {
    position: relative;
    z-index: 1;
