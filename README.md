@@ -1,7 +1,7 @@
 # Asteroids  
 [live](https://braelan.github.io/resume)
 
-![alt text](https://gyazo.com/c4399d43884415bc83a20252ab9d6ec7)
+![alt text](https://i.gyazo.com/c4399d43884415bc83a20252ab9d6ec7.gif)
 
 ### Places to read code
 * ship.js contains the logic movement and firing a bullet
