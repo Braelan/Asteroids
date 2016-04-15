@@ -21,18 +21,32 @@ img {
    width: 100%;
    height: 100%;
    border: 1px solid black;
-   position: fixed;
-   /*background-image: url("asterback.png");
-   background-color: #cccccc;*/
-   font-family: "Ubuntu-Mono";
+   position: relative;
+   background-image: url("asterback.png");
+   background-color: #cccccc;
+   font-family: "Titillium Web";
    font-weight: bold;
    color: white;
    background_url: "asterback.png";
  }
 
  .info > ul {
-   position: relative;
+   position: absolute;
+   z-index: 2;
    /*top: 200px;*/
+   margin: 150px;
+   display: block;
+   width: 300px;
+   height: 200px;
+
+   border: 1px solid red;
+ }
+
+ .info > .text-background {
+   position: absolute;
+   z-index: 1;
+   background: black;
+   opacity: .5;
    margin: 150px;
    display: block;
    width: 300px;
@@ -51,16 +65,24 @@ img {
    width: auto
  }
 
+ .up-arrow {
+   width: 50px;
+   height: 50px;
+ }
+
  canvas {background:url(asterback.png)}
 
  button {
    position: relative;
    z-index: 1;
-   display: block;
+   display: inline-block;
    margin: auto;
-   height: 80px;
-   width: 160px;
-   font-size: 60px;
+   padding: 10px;
+   /*height: 80px;
+   width: 160px;*/
+   font-size: 20px;
+   color: black
    font-weight: bold;
    cursor: crosshair;
+   background: #996633;
  }
