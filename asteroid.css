@@ -4,6 +4,14 @@ body, div {
 
 }
 
+button {
+background: none;
+border: 0;
+color: #1E70E8;
+font: inherit;
+line-height: normal;
+}
+
 body {
   position: absolute;
   height: 100%;
@@ -30,6 +38,11 @@ img {
    background_url: "asterback.png";
  }
 
+ .info {
+   margin: auto;
+   border: 1px solid blue;
+ }
+
  .info > ul {
    position: absolute;
    z-index: 2;
@@ -38,8 +51,9 @@ img {
    display: block;
    width: 300px;
    height: 200px;
-
-   border: 1px solid red;
+ }
+.info > ul > .welcome {
+   font-size: 30px;
  }
 
  .info > .text-background {
@@ -81,8 +95,8 @@ img {
    /*height: 80px;
    width: 160px;*/
    font-size: 20px;
-   color: black
+   color: #1E70E8;
    font-weight: bold;
    cursor: crosshair;
-   background: #996633;
+   background: transparent;
  }
