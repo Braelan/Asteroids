@@ -1,5 +1,5 @@
 # Asteroids  
-##[live](https://braelan.github.io/resume)
+##[live](https://braelan.github.io/asteroids)
 
 ![alt text](https://i.gyazo.com/c4399d43884415bc83a20252ab9d6ec7.gif)
 
