@@ -4,12 +4,12 @@
 ![alt text](https://i.gyazo.com/c4399d43884415bc83a20252ab9d6ec7.gif)
 
 ### Places to read code
-* ship.js contains the logic movement and firing a bullet
+* ship.js contains the logic for ship movement and firing a bullet
 * game.js contains the features that are updated in the game loop
 * movingObject.js contains the collision logic
 
 ### sample code
-this code splits a large asteroid and generates two new asteroid objects that
+This code splits a large asteroid and generates two new asteroid objects that
 are then returned to game.js
 
 ```javascript
